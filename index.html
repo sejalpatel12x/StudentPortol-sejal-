@@ -419,19 +419,19 @@ textarea{resize:vertical;min-height:80px;}
         </div>
         <div class="form-group full">
           <label>Home Address <span class="req">*</span></label>
-          <textarea id="address" placeholder="123 Galaxy Street, Cosmos City..." rows="2" oninput="validateField('address')"></textarea>
+          <textarea id="address" placeholder="Permanant Address", Cosmos City..." rows="2" oninput="validateField('address')"></textarea>
           <div class="field-error" id="address-err">Address is required (min 10 chars)</div>
           <div class="field-success" id="address-ok">Address saved!</div>
         </div>
         <div class="form-group">
           <label>Emergency Contact Name <span class="req">*</span></label>
-          <input type="text" id="emergencyName" placeholder="Jane Doe" oninput="validateField('emergencyName')">
+          <input type="text" id="emergencyName" placeholder="Contact No." oninput="validateField('emergencyName')">
           <div class="field-error" id="emergencyName-err">Enter emergency contact name</div>
           <div class="field-success" id="emergencyName-ok">Noted!</div>
         </div>
         <div class="form-group">
           <label>Emergency Contact Phone <span class="req">*</span></label>
-          <input type="tel" id="emergencyPhone" placeholder="+91 9876543211" oninput="validateField('emergencyPhone')">
+          <input type="tel" id="emergencyPhone" placeholder="+91 9874XXXXXX" oninput="validateField('emergencyPhone')">
           <div class="field-error" id="emergencyPhone-err">Enter a valid emergency phone</div>
           <div class="field-success" id="emergencyPhone-ok">Saved!</div>
         </div>
@@ -490,7 +490,7 @@ textarea{resize:vertical;min-height:80px;}
         <div class="form-group">
           <label>Current Semester <span class="req">*</span></label>
           <select id="semester" onchange="validateField('semester')">
-            <option value="">Select semester</option>
+            <option value="">Select Semester</option>
             <option>Semester 1</option><option>Semester 2</option><option>Semester 3</option>
             <option>Semester 4</option><option>Semester 5</option><option>Semester 6</option>
             <option>Semester 7</option><option>Semester 8</option>
@@ -545,20 +545,20 @@ textarea{resize:vertical;min-height:80px;}
       <div class="form-grid single">
         <div class="form-group">
           <label>Email Address <span class="req">*</span></label>
-          <input type="email" id="email" placeholder="john.doe@nexusedu.com" oninput="validateField('email')">
+          <input type="email" id="email" placeholder="Enter Email" oninput="validateField('email')">
           <div class="field-error" id="email-err">Enter a valid email address</div>
           <div class="field-success" id="email-ok">Valid email!</div>
         </div>
         <div class="form-group">
           <label>Confirm Email Address <span class="req">*</span></label>
-          <input type="email" id="emailConfirm" placeholder="Repeat your email" oninput="validateField('emailConfirm')">
+          <input type="email" id="emailConfirm" placeholder="Repeat Your Email" oninput="validateField('emailConfirm')">
           <div class="match-indicator" id="emailMatch"></div>
           <div class="field-error" id="emailConfirm-err">Emails do not match</div>
           <div class="field-success" id="emailConfirm-ok">Emails match!</div>
         </div>
         <div class="form-group">
           <label>Password <span class="req">*</span></label>
-          <input type="password" id="password" placeholder="Create a strong password" oninput="validateField('password');checkStrength()">
+          <input type="password" id="password" placeholder="Create Password" oninput="validateField('password');checkStrength()">
           <div class="strength-bar">
             <div class="strength-seg" id="s1"></div>
             <div class="strength-seg" id="s2"></div>
@@ -571,7 +571,7 @@ textarea{resize:vertical;min-height:80px;}
         </div>
         <div class="form-group">
           <label>Confirm Password <span class="req">*</span></label>
-          <input type="password" id="passwordConfirm" placeholder="Repeat your password" oninput="validateField('passwordConfirm')">
+          <input type="password" id="passwordConfirm" placeholder="Valid Your password" oninput="validateField('passwordConfirm')">
           <div class="match-indicator" id="passMatch"></div>
           <div class="field-error" id="passwordConfirm-err">Passwords do not match</div>
           <div class="field-success" id="passwordConfirm-ok">Passwords match!</div>
@@ -591,7 +591,7 @@ textarea{resize:vertical;min-height:80px;}
         </div>
         <div class="form-group">
           <label>Security Answer <span class="req">*</span></label>
-          <input type="text" id="secA" placeholder="Your answer" oninput="validateField('secA')">
+          <input type="text" id="secA" placeholder="Your suggestion" oninput="validateField('secA')">
           <div class="field-error" id="secA-err">Please provide your security answer</div>
           <div class="field-success" id="secA-ok">Answer saved!</div>
         </div>
